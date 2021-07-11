@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#crdbdy
+{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-self: center;
+    position: relative;
+    left: 260px;
+}
+
+.ptxt1 Link ,.ptxt2 Link
+{
+    text-decoration: none;
+}
+.ptxt1,.ptxt2{
+    display: grid;
+    text-align: end;
+}
+.ptxt2
+{
+    position: relative;
+    right: 20px;
+}
+.crdimg1:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+    transform: translateX(1px);
+    transition: 0.5s;
+}
+.crdimg2:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+    transform: translateX(1px);
+    transition: 0.5s;
+}
+.img{
+    position: relative;
+    right: 28px;
+}
